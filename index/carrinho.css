@@ -1,0 +1,153 @@
+body{
+    background-color: #f6f6f6;
+    font-family: 'lato', sans-serif; 
+    
+    }
+
+    /* parte de cima do site*/
+#topo{ 
+    margin: -10px;
+     background-color: white;
+     padding: 5px;
+
+     }
+
+#menu-selecao{list-style: none;
+    margin-top: 10px; 
+    display: flex; 
+    background-color: white; 
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 50px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#logo{ height:10% ;
+   width: 10%;
+   }
+
+#titulo{
+    text-align: center;
+    margin: 70px;
+   }
+
+  /*Interface do carrinho de compras*/
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 500px;
+  }
+  
+  table thead tr {
+    border-bottom: 2px solid #666;
+  }
+  
+  table thead th {
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color:#666;
+  }
+
+  table tbody {
+    
+    
+  }
+
+  table tbody tr{
+    border-bottom: 2px solid #666;
+  }
+  
+  /* Informações do produto*/
+
+  #produto {
+    display: flex;
+    align-items: center;
+    padding:20px;
+  }
+  
+  #produto img { 
+    border-radius: 8px;
+    
+  }
+  
+  #produto nome {
+    
+    
+  }
+  
+  #produto #nome-produto {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+    
+  
+  #produto #categoria-produto {
+    margin-left: 20px;
+    color: #000000b0;
+
+    
+  }
+
+  #remover{
+    border-radius: 100%;
+    border: 0;
+    background-color: #eee;
+    width: 30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    
+
+  }
+
+  #qtd{
+    display: inline-flex;
+    padding: 10px 0;
+    background-color: #eee;
+    min-width: 60px;
+    border: 0;
+    justify-content: space-around;
+    border-radius: 20px ;
+  }
+  
+  
+    button{cursor:pointer; 
+      border:0;
+      background: transparent;
+      padding: 0 10px;
+    }
+
+ button:hover{
+ 
+      color:blue;
+ }
+  
+ aside{ 
+  margin-left:12px;}
+
+  /*resumo da compra*/
+
+  #box{
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+
+    background: #eee;
+
+  }
+  
+#box #compra-final{
+  border: 0;
+  padding:15px 0;
+  color:white;
+  background: greenyellow;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+
+}
