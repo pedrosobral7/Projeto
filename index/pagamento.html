@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma de pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+</head>
+<body>
+ <div id="box"> 
+<h1>Finalize sua compra</h1>
+<form>
+<h2> Dados para a entrega</h2>
+
+<div id="nome-sobrenome">
+
+<section>
+    <label for="nome">Nome: <span>*</span></label>
+    <input type="text" name="nome" id="nome" required placeholder=" Digite seu nome aqui">
+</section>
+
+<section>
+    <label for="Sobrenome">Sobrenome: <span>*</span></label>
+    <input type="text" name="Sobrenome" id="Sobrenome" required placeholder="Digite seu sobrenome aqui">
+
+</section>
+
+
+
+    </div>
+    <div id="endereco">
+
+<section>
+    <label for="endereco">Endereço: <span>*</span></label>
+    <input type="text" name="endereco" id="endereco" required placeholder="Digite seu endereco"> 
+
+</section>
+</form>
+    
+    
+    
+<div id="telefone">
+        
+        
+    <section>
+        <label for="cep">CEP: <span>*</span></label>
+        <input type="text" name="cep" id="cep" required placeholder="Digite seu CEP aqui">
+    </section>
+    <section>
+        <label for="telefone">Telefone: <span>*</span></label>
+    <input type="number" name="telefone" id="telefone" required placeholder="(xx x xxxx-xxxx)"> 
+    </section>
+    
+</div>
+        
+    </div>
+    <div id="opcao-envio">
+        <h2>Opção de envio</h2>
+        <section id="input-duplo">
+
+            <label for="envio">Expresso</label>
+            <input type="radio">
+
+        </section>
+        <section>
+            <label for="envio2">Comum</label>
+            <input type="radio">
+
+        </section>
+        <section id="botao-final">
+            <a  href="obrigado.html" ><button id="botao-compra">FINALIZAR</button></a>
+        </section>
+    </div>
+
+    
+</div>
+</div>  
+</body>
+</html>
