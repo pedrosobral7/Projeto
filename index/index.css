@@ -33,7 +33,7 @@ button{cursor:pointer}
       
       width: 103% ;
       height: 50%;
-      background:url(/index/imagens/banner.png);
+      background:url(imagens/banner.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
